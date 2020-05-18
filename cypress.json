@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://www.kayak.com",
+    "integrationFolder": "cypress/integration/webpages",
+    "viewportHeight": 660, 
+    "viewportWidth": 1200,
+    "chromeWebSecurity": false
+}
