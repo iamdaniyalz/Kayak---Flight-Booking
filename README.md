@@ -1,4 +1,4 @@
-###Kayak - Flight Booking
+##Kayak - Flight Booking
 
 > Made with Cypress
 
