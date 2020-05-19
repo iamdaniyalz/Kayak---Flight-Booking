@@ -2,7 +2,7 @@
     "Scenario 1": {
         "Origin Input": "Hartsfield-Jackson Atlanta International Airport",
         "Origin Selection": "Atlanta, GA - Hartsfield-Jackson - Airport",
-        "Destination Input": "Dubai Internation Airport (DXB)",
+        "Destination Input": "Dubai International Airport (DXB)",
         "Destination Selection": "Dubai, United Arab Emirates - All airports - Airport",
         "Passengers": {
             "adults": 4,
@@ -12,14 +12,14 @@
             "seatInfant": 0,
             "lapInfant": 0
         },
-        "Departure": "05/21/2020",
-        "Arrival": "05/27/2020"
+        "Departure": "06/16/2020",
+        "Arrival": "06/22/2020"
     },
     "Scenario 2": {
         "Origin Input": "Tokyo Ha",
-        "Origin Selection": "Tokyo Haneda Airport (HND)",
+        "Origin Selection": "Tokyo, Japan - Haneda - Airport",
         "Destination Input": "Paris Charl",
-        "Destination Selection": "Paris Charles de Gaulle Airport (CDG)",
+        "Destination Selection": "Paris, France - Charles de Gaulle - Airport",
         "Passengers": {
             "Adults": 2,
             "Seniors": 1,
@@ -28,14 +28,14 @@
             "Seat Infant": 0,
             "Lap Infant": 0
         },
-        "Departure": "05/21/2020",
-        "Arrival": "05/27/2020"
+        "Departure": "06/16/2020",
+        "Arrival": "06/22/2020"
     },
     "Scenario 3": {
         "Origin Input": "AMS",
-        "Origin Selection": "Amsterdam Airport Schiphol (AMS)",
+        "Origin Selection": "Amsterdam, Netherlands - Schiphol - Airport",
         "Destination Input": "CAN",
-        "Destination Selection": "Guangzhou, China (CAN)",
+        "Destination Selection": "Guangzhou, China - Baiyun - Airport",
         "Passengers": {
             "Adults": 2,
             "Seniors": 2,
@@ -44,14 +44,14 @@
             "Seat Infant": 0,
             "Lap Infant": 0
         },
-        "Departure": "05/21/2020",
-        "Arrival": "05/27/2020"
+        "Departure": "06/16/2020",
+        "Arrival": "06/22/2020"
     },
     "Scenario 4": {
         "Origin Input": "Frankfurt Airport",
-        "Origin Selection": "Frankfurt am Main, Germany(HHN)",
+        "Origin Selection": "Frankfurt am Main, Germany - Frankfurt - Airport",
         "Destination Input": "Berlin",
-        "Destination Selection": "Schonefeld(SXF)",
+        "Destination Selection": "Berlin, Germany - Schönefeld - Airport",
         "Passengers": {
             "Adults": 4,
             "Seniors": 0,
@@ -60,7 +60,7 @@
             "Seat Infant": 1,
             "Lap Infant": 1
         },
-        "Departure": "05/21/2020",
-        "Arrival": "05/27/2020"
+        "Departure": "06/16/2020",
+        "Arrival": "06/22/2020"
     }
 }

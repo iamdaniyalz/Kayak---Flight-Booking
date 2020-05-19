@@ -18,6 +18,22 @@ const departInput = "div[id$=depart-input]"
 const arrivalInput = "div[id$=return-input]"
 const searchButton = "button[id$=submit][title='Search flights']"
 
+//Search Outcomes
+const popup = "div[class*=FlightPriceAlertDriveBy]"
+const datefieldOut = "div[id$=dateRangeInput-display-start-inner]"
+const departoutput = "div[id$=departDate-input]"
+const arrivalOutput = "div[id$=returnDate-input]"
+const priceTabView = "div[id$=tabs]"
+const cheapestPrice = "a[id$=price_aTab] span[class*='price']"
+const cheapestDuration = "a[id$=price_aTab] span[class*='duration']"
+const bestPrice = "a[id$=bestflight_aTab] span[class*='price']"
+const bestDuration = "a[id$=bestflight_aTab] span[class*='duration']"
+const quickestPrice = "a[id$=duration_aTab] span[class*='price']"
+const quickestDuration = "a[id$=duration_aTab] span[class*='duration']"
+
+export { cheapestPrice, bestPrice, quickestPrice }
+
+
 class flightTypes {
 
     flight_type() {
@@ -105,4 +121,51 @@ class travellersDetails {
     }
 }
 
-export {flightTypes,flightDetails,travellersDetails}
+class searchResults {
+
+    popup() {
+        return cy.get(popup, { timeout: 20000 })
+    }
+    
+    datefield() {
+        return cy.get(datefieldOut)
+    }
+
+    departDate() {
+        return cy.get(departoutput)
+    }
+    
+    arrivalDate() {
+        return cy.get(arrivalOutput)
+    }
+
+    price_Tab() {
+        return cy.get(priceTabView)
+    }
+
+    cheapest_Price() {
+        return cy.get(cheapestPrice)
+    }
+
+    cheapest_Duration() {
+        return cy.get(cheapestDuration)
+    }
+
+    best_Price() {
+        return cy.get(bestPrice)
+    }
+
+    best_Duration() {
+        return cy.get(bestDuration)
+    }
+
+    quickest_Price() {
+        return cy.get(quickestPrice)
+    }
+
+    quickest_Duration() {
+        return cy.get(quickestDuration)
+    }
+}
+
+export {flightTypes,flightDetails,travellersDetails, searchResults}
